@@ -13,8 +13,7 @@ import {
   FaGraduationCap,
   FaLanguage,
   FaArrowUp,
-  FaStar,
-  FaAws,
+
 } from "react-icons/fa"
 import {
   SiJavascript,
@@ -24,9 +23,9 @@ import {
   SiNodedotjs,
   SiHtml5,
   SiCss3,
-  SiTailwindcss,
+
   SiMongodb,
-  SiPostgresql,
+
   SiDocker,
   SiGit,
   SiPython,
@@ -700,7 +699,7 @@ export default function Resume() {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                       <h4 className="text-xl font-bold text-white">{course.title}</h4>
                       <span className="bg-emerald-500/20 text-emerald-300 text-xs px-3 py-1 rounded-full border border-emerald-500/30">
-                        Accomplished {course.certificate}
+                        Accomplished 
                       </span>
                     </div>
                     <p className="text-emerald-300">{course.institution}</p>
