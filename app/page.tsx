@@ -352,7 +352,7 @@ export default function Resume() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                I'm currently studying Systems Analysis and Development (ADS) and have been passionate about technology since I was a child. I enjoy exploring how things work, building solutions through code, and constantly learning new tools and concepts. My goal is to grow as a developer and contribute to innovative and impactful projects. I'm especially interested in software development, programming logic, and problem-solving.
+                I am currently studying Systems Analysis and Development (ADS) and have been passionate about technology since I was a child. I enjoy exploring how things work, building solutions through code, and constantly learning new tools and concepts. My goal is to grow as a developer and contribute to innovative and impactful projects. I am especially interested in software development, programming logic, and problem-solving.
 
               </motion.p>
               <motion.p
@@ -533,7 +533,7 @@ export default function Resume() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.2 }}
               >
-                <div className="absolute -top-3 -left-3 text-5xl text-emerald-500 opacity-30">"</div>
+                <div className="absolute -top-3 -left-3 text-5xl text-emerald-500 opacity-30">&quot;</div>
                 <div className="relative z-10">
                   <p className="text-gray-300 mb-4 italic">{testimonial.text}</p>
                   <div className="flex items-center">
@@ -546,7 +546,7 @@ export default function Resume() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute -bottom-3 -right-3 text-5xl text-emerald-500 opacity-30 rotate-180">"</div>
+                <div className="absolute -bottom-3 -right-3 text-5xl text-emerald-500 opacity-30 rotate-180">&quot;</div>
               </motion.div>
             ))}
           </div>
